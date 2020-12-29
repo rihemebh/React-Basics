@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Message from './Components/Message'
 import Counter from './Components/counter';
+import FunctionClick from './Components/FunctionClick';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Counter/>
 
      <Message/>
+
+     <FunctionClick/>
     </div>
   );
 }
