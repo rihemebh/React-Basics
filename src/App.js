@@ -3,15 +3,17 @@ import './App.css';
 import Message from './Components/Message'
 import Counter from './Components/counter';
 import FunctionClick from './Components/FunctionClick';
+import EventBind from './Components/EventBind';
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      <EventBind/>
+       {/*<Counter/>
 
      <Message/>
 
-     <FunctionClick/>
+       <FunctionClick/>*/}
     </div>
   );
 }

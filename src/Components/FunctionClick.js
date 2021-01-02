@@ -8,7 +8,8 @@ function FunctionClick (){
     }
 return (
     <div>
-        <button onClick={clickHandler}>Click</button> // this.clickHandler : in a class component
+        <button onClick={clickHandler}>Click</button> 
+        {/*this.clickHandler : in a class component*/}
     </div>
 );
 }
