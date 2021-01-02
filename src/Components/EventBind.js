@@ -27,7 +27,7 @@ class EventBind extends Component{
     }*/
 //method2
     clickHandler = () => {
-        if(this.state.message =="Hello"){
+        if(this.state.message ==="Hello"){
             this.setState(
                 { message: "Goodbye"}
              )
