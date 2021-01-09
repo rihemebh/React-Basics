@@ -6,16 +6,17 @@ import FunctionClick from './Components/FunctionClick';
 import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
 import UserGreeting from './Components/UserGreeting';
+import NameList from './Components/NameList';
 
 function App() {
   return (
     <div className="App">
- <UserGreeting/>
+ <NameList />
      {/*  <EventBind/>
       <Counter/>
     <ParentComponent/> 
      <Message/>
-
+<UserGreeting/>
        <FunctionClick/>*/}
     </div>
   );
