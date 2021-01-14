@@ -15,14 +15,19 @@ import Table from './Components/Table';
 import PureComp from './Components/PureComp';
 import RegComponent from './Components/RegComponent';
 import ParentCom from './Components/ParentCom';
+import PortalDemo from './Components/PortalDemo';
+import ClickCounter from './Components/clickCounter';
+import HoverCounter from './Components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
-      <ParentCom />
-
+   
+<ClickCounter />
+<HoverCounter/>
      {/* 
-    
+     <PortalDemo/>
+       <ParentCom />
       <Table/>
     <FragmentDemo/>
      <LifeCycleA/>
