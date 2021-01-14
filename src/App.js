@@ -12,14 +12,18 @@ import LifeCycleA from './Components/LifeCycleA';
 import LifeCycleB from './Components/LifeCycleB';
 import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
+import PureComp from './Components/PureComp';
+import RegComponent from './Components/RegComponent';
+import ParentCom from './Components/ParentCom';
 
 function App() {
   return (
     <div className="App">
-      <Table/>
-    
-  
+      <ParentCom />
+
      {/* 
+    
+      <Table/>
     <FragmentDemo/>
      <LifeCycleA/>
       <LifeCycleB/>
