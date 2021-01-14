@@ -7,12 +7,15 @@ import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
+import Form from './Components/Form';
 
 function App() {
   return (
     <div className="App">
- <NameList />
-     {/*  <EventBind/>
+    <Form />
+     {/* 
+      <NameList />
+     <EventBind/>
       <Counter/>
     <ParentComponent/> 
      <Message/>
