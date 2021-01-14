@@ -8,12 +8,22 @@ import ParentComponent from './Components/ParentComponent';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
 import Form from './Components/Form';
+import LifeCycleA from './Components/LifeCycleA';
+import LifeCycleB from './Components/LifeCycleB';
+import FragmentDemo from './Components/FragmentDemo';
+import Table from './Components/Table';
 
 function App() {
   return (
     <div className="App">
-    <Form />
+      <Table/>
+    
+  
      {/* 
+    <FragmentDemo/>
+     <LifeCycleA/>
+      <LifeCycleB/>
+       <Form />
       <NameList />
      <EventBind/>
       <Counter/>
